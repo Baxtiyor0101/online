@@ -12,7 +12,7 @@
 // console.log(Number(undefined)); // NaN => not a number
 // console.log(Number(null));
 // console.log(Number({}));
-// console.log(Number([23]));
+// console.log(Number([]));
 // console.log(Number(12686768797697987698769n));
 // let res = Symbol("test");
 // console.log(res);
@@ -43,14 +43,13 @@
 // console.log(Math.abs(12));
 // console.log(Math.cos(1));
 
-// let num = 12.904;
+// let num = -12.904;
 // console.log(Math.floor(num));
 // console.log(Math.ceil(23.4));
 // console.log(Math.round(12.3));
 // console.log(Math.max(2, 3, 6, 4, 2, 4, 6, 8, 4));
 // console.log(Math.min(3, 4, 5, 7, 4, 2));
 // console.log(Math.floor(Math.random()*100)); // 0 - 1  orasidagi ixtiyoriy son
-
 // 50 100
 
 // //////////////////////
