@@ -86,7 +86,7 @@
 // //////////////////////////
 // Math.pow();
 // string methods
-let str = "Helloe     World";
+// let str = "Helloe     World";
 // console.log(str.charAt(1));
 // console.log(str[2]);
 // console.log(str.endsWith("lo"));
@@ -95,10 +95,10 @@ let str = "Helloe     World";
 // console.log(str.split(" ").join(", "));
 // console.log(str.indexOf("e"));
 // console.log(str.lastIndexOf("e"));
-// console.log(str.replace("H", "S"));
+// console.log(str.replaceAll("H", "S"));
 // console.log(str.toLowerCase());
 // console.log("r".toUpperCase());
-// console.log(str.trim());
+// console.log(str.trim("     sdsdd dsdsd    "));
 // console.log(str.concat("test","best"));
 // console.log(str.repeat(4));
 // let res = str.substring(1, 3);
@@ -107,3 +107,17 @@ let str = "Helloe     World";
 // console.log("$".charCodeAt());
 // console.log("a" > "A");
 // console.log(str.length);
+
+// ////////////////
+// 19
+// let str = "hello js world";
+// let arr = str.split(" ");
+// let res = "";
+// for (const val of arr) {
+//   res = res + val[0].toUpperCase() + val.slice(1) + " ";
+// }
+// console.log(res);
+
+
+
+
