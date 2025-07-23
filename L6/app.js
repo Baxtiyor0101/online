@@ -110,3 +110,35 @@
 // let res = [11, 51, 4, 3, 8, 3];
 // let sorted = res.sort((a, b) => b-a);
 // console.log(sorted);
+
+// 9
+// function sumAll(...rest) {
+//   let res = rest.reduce((acc, val, inx) => (acc += val));
+//   return res;
+// }
+// console.log(sumAll(3, 3, 5, 6, 7));
+// // sumAll(1, 2, 3, 4) => 10
+
+// 15
+// let arr = [{ role: "user" }, { role: "admins" }, { role: "superadmin" }];
+// let res = arr.some((val) => val.role === "admin");
+// console.log(res);
+
+// 17
+
+// let arr = [0, "hello", null, "", 5]; // ["hello",5]
+// let res = arr.filter((val) => Boolean(val) !== false);
+// console.log(res);
+
+// function test() {}
+// test.current = "dfsdsdf";
+// console.log(test.current);
+
+// let res = {
+//   age: 23,
+//   email: "sddcsd",
+//   sayHi: () => {
+//     console.log("hello ");
+//   },
+// };
+// Math 
